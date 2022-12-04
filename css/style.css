@@ -5,16 +5,16 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 /******************************************
@@ -22,19 +22,66 @@
 /*******************************************/
 
 body {
-
+  height: 100%;
+  background: #f3fbfb;
+  color: #7b8c9a;
+  font-family: "Poppins", sans-serif;
 }
-
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2e4457;
+}
+p {
+  font-weight: normal;
+  line-height: 1.5;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
 header {
-
+  height: 60px;
 }
-
+nav {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.7%;
+}
+nav a {
+  text-decoration: none;
+  color: #435668;
+  text-align: center;
+}
+nav > * {
+  flex-basis: 5rem;
+}
+nav > ul {
+  list-style: none;
+  flex-basis: 35rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+nav > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 0.4%;
+}
+nav > a {
+  margin-top: 0.6%;
+  padding: 0.5rem 2rem;
+  height: 10%;
+  background: #435668;
+  color: white;
+  margin-right: 0.5%;
+}
 footer {
-
 }
 
 /******************************************
