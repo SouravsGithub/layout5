@@ -131,6 +131,26 @@ input::placeholder {
 .hero-text p {
   margin-top: 5%;
 }
+
+/* FEATURES SECTION STYLING */
+
+.features {
+  width: 90%;
+  margin: 5% auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.feature {
+  flex-basis: 15rem;
+}
+.second {
+  margin-bottom: 0.6%;
+}
+.feature a {
+  text-decoration: none;
+  color: #2e4457;
+  font-weight: bold;
+}
 footer {
 }
 
